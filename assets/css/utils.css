@@ -24,10 +24,6 @@ body::-webkit-scrollbar {
     width: 10px;
 }
 
-body::-webkit-scrollbar-track {
-    background: inherit;
-}
-
 body::-webkit-scrollbar-thumb {
     height: 10px;
     background-color: var(--dark-color);
