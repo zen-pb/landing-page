@@ -8,7 +8,7 @@ header {
     display:  flex;
     justify-content: space-between;
     width: 65%;
-    margin-bottom: 12px;
+    padding: 1rem;
 }
 
 .title {
@@ -67,7 +67,79 @@ ul {
     flex-shrink: 0;
 }
 
-/*  */
+/* Information */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 65%;
+    height: 100%;
+    padding: 4rem 0;
+}
+
+.information-title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: var(--dark-color);
+}
+
+.cards {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    p {
+        color: var(--dark-color);
+    }
+}
+
+.card-image {
+    width: 200px;
+    height: 200px;
+    border: solid 4px var(--blue-color);
+    border-radius: 15px;
+}
+
+/* Quote */
+
+.quote {
+    background-color: var(--grey-color);
+}
+
+.quote-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 65%;
+
+    p {
+        font-size: 36px;
+        font-style: italic;
+        font-weight: 300;
+    }
+}
+
+.quote-content:last-child {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    align-items: flex-end;
+}
+
 
 
 /* Footer */
